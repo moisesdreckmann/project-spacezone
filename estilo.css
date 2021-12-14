@@ -64,6 +64,10 @@
     }
 }
 
+html {
+    -webkit-tap-highlight-color: transparent;
+}
+
 :root {
     --cor1: rgb(34, 58, 89);
     --cor2: rgb(81, 152, 180);
