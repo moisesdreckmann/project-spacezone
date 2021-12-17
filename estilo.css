@@ -533,8 +533,7 @@ input#dark-check:checked ~ header #login:hover {
     height: 214px;
     padding: 3px;
     position: relative;
-    overflow: hidden;
-    
+    overflow: hidden;   
 }
 
 .conteudo__img {
