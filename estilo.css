@@ -533,9 +533,15 @@ input#dark-check:checked ~ header #login:hover {
     height: 214px;
     padding: 3px;
     position: relative;
-    overflow: hidden;
-    
+    overflow: hidden;  
 }
+
+@media screen and (max-width: 670px) {
+    .conteudo .conteudo__card {
+       flex-grow: 1; 
+    }
+}
+
 
 .conteudo__img {
     width: 320px;
