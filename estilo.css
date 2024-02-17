@@ -90,7 +90,7 @@ html {
 
 header {
     max-width: 100vw;
-    height: 400px;
+    height: 280px;
     text-align: center;
     padding: 5px;
     background-repeat: no-repeat;
@@ -102,8 +102,7 @@ header {
     position: relative;
     overflow: hidden;
     background-image: linear-gradient(to bottom, #181C26, #223A59, #3F768C, #F2C0A2 73%);  
-    
-    
+    margin-bottom: 10px;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.377);
     animation: header-color 10s ease-in-out infinite alternate-reverse;
 }
@@ -125,7 +124,6 @@ header {
     font-size: 3.3em;
     text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.377);
     padding: 5px;
-    padding-bottom: 40px;
     animation: bounceInDown .7s ease-in-out;
     position: relative;
     z-index: 2;
@@ -166,6 +164,7 @@ header {
     letter-spacing: .1em;
     font-size: 0.8em;
     margin-right: 30px;
+    margin-top: 80px;
     cursor: pointer;
     z-index: 2;
 }
