@@ -108,7 +108,6 @@ header {
     position: relative;
     overflow: hidden;
     background-image: linear-gradient(to bottom, #181C26, #223A59, #3F768C, #F2C0A2 73%);  
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.377);
     animation: header-color 10s ease-in-out infinite alternate-reverse;
 }
 
